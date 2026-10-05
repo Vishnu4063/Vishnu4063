@@ -34,11 +34,7 @@ jobs:
           python -m pip install --upgrade pip
 
       - name: Update README with daily motivation
-        env:
-          # Run the update script
-          RUN_SCRIPT: python scripts/update_readme.py
-        run: |
-          eval $RUN_SCRIPT
+        run: python scripts/update_readme.py
 
       - name: Check for changes
         id: changes
