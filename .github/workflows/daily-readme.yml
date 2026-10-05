@@ -49,18 +49,11 @@ jobs:
       - name: Commit and push changes
         if: steps.changes.outputs.no_changes == 'false'
         run: |
-          # Stage the README.md
           git add README.md
-
-          # Commit only if there are changes
-          git commit -m "chore: update daily motivation quote
-
-Generated on: $(date -u +%Y-%m-%d)"
-
-          # Push the commit
-          git push origin HEAD:${GITHUB_REF##*/}
+          git commit -m "chore: update daily motivation quote"
+          git push origin HEAD
 
       - name: Notify if no changes
         if: steps.changes.outputs.no_changes == 'true'
         run: |
-          echo "ℹ️ No changes to README.md - the current quote is already up to date."
+          echo "No changes to README.md - quote already up to date."
