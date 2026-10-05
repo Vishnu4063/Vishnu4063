@@ -1,0 +1,70 @@
+name: Daily Motivation Update
+
+on:
+  # Runs every day at 9:00 AM UTC
+  schedule:
+    - cron: "0 9 * * *"
+  # Allows manual execution from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Needed for the commit to be pushable
+          persist-credentials: true
+
+      - name: Set git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Update README with daily motivation
+        env:
+          # Run the update script
+          RUN_SCRIPT: python scripts/update_readme.py
+        run: |
+          eval $RUN_SCRIPT
+
+      - name: Check for changes
+        id: changes
+        run: |
+          # Check if README has changes staged or modified
+          if git diff --quiet; then
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "no_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.no_changes == 'false'
+        run: |
+          # Stage the README.md
+          git add README.md
+
+          # Commit only if there are changes
+          git commit -m "chore: update daily motivation quote
+
+Generated on: $(date -u +%Y-%m-%d)"
+
+          # Push the commit
+          git push origin HEAD:${GITHUB_REF##*/}
+
+      - name: Notify if no changes
+        if: steps.changes.outputs.no_changes == 'true'
+        run: |
+          echo "ℹ️ No changes to README.md - the current quote is already up to date."

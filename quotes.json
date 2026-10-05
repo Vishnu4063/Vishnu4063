@@ -1,0 +1,184 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "quote": "Strive not to be a success, but rather to be of value.",
+      "theme": "success-value",
+      "category": "general"
+    },
+    {
+      "id": 2,
+      "quote": "Code is like humor. When you have to explain it, it's bad.",
+      "theme": "humor",
+      "category": "programming"
+    },
+    {
+      "id": 3,
+      "quote": "Every expert was once a beginner.",
+      "theme": "beginner",
+      "category": "learning"
+    },
+    {
+      "id": 4,
+      "quote": "Talk is cheap. Show me the code.",
+      "theme": "action",
+      "category": "programming"
+    },
+    {
+      "id": 5,
+      "quote": "The only way to learn a new programming language is to write programs in it.",
+      "theme": "learning",
+      "category": "programming"
+    },
+    {
+      "id": 6,
+      "quote": "Debugging is programming in the opposite direction.",
+      "theme": "humor",
+      "category": "programming"
+    },
+    {
+      "id": 7,
+      "quote": "Continuous learning is the minimum requirement for success in any career.",
+      "theme": "learning",
+      "category": "career"
+    },
+    {
+      "id": 8,
+      "quote": "Code never lies, comments sometimes do.",
+      "theme": "humor",
+      "category": "programming"
+    },
+    {
+      "id": 9,
+      "quote": "The best way to predict the future is to invent it.",
+      "theme": "innovation",
+      "category": "general"
+    },
+    {
+      "id": 10,
+      "quote": "Innovation distinguishes between a leader and a follower.",
+      "theme": "leadership",
+      "category": "general"
+    },
+    {
+      "id": 11,
+      "quote": "Well begun is half done.",
+      "theme": "discipline",
+      "category": "discipline"
+    },
+    {
+      "id": 12,
+      "quote": "Discipline is the bridge between goals and accomplishment.",
+      "theme": "discipline",
+      "category": "discipline"
+    },
+    {
+      "id": 13,
+      "quote": "The harder the conflict, the greater the triumph.",
+      "theme": "perseverance",
+      "category": "general"
+    },
+    {
+      "id": 14,
+      "quote": "I have not failed. I've just found 10,000 ways that won't work.",
+      "theme": "failure",
+      "category": "general"
+    },
+    {
+      "id": 15,
+      "quote": "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.",
+      "theme": "satisfaction",
+      "category": "career"
+    },
+    {
+      "id": 16,
+      "quote": "Programming is the art of organizing complexity, of managing detail. This is why programming is difficult.",
+      "theme": "complexity",
+      "category": "programming"
+    },
+    {
+      "id": 17,
+      "quote": "Simplicity is the soul of efficiency.",
+      "theme": "simplicity",
+      "category": "programming"
+    },
+    {
+      "id": 18,
+      "quote": "Code is read much more often than it is written.",
+      "theme": "maintenance",
+      "category": "programming"
+    },
+    {
+      "id": 19,
+      "quote": "The greatest risk is not taking any risk... In a world that is changing really quickly, the only strategy that is guaranteed to fail is not taking risks.",
+      "theme": "risk",
+      "category": "general"
+    },
+    {
+      "id": 20,
+      "quote": "AutoCAD is the computer-aided design tool that engineers and architects use to draft, model, and visualize ideas.",
+      "theme": "design",
+      "category": "engineering"
+    },
+    {
+      "id": 21,
+      "quote": "Machine learning is the bridge between data and decision-making.",
+      "theme": "AI",
+      "category": "AI"
+    },
+    {
+      "id": 22,
+      "quote": "Data is the new oil, but AI is the refinery.",
+      "theme": "AI",
+      "category": "AI"
+    },
+    {
+      "id": 23,
+      "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+      "theme": "future",
+      "category": "general"
+    },
+    {
+      "id": 24,
+      "quote": "Build in public.",
+      "theme": "open-source",
+      "category": "open-source"
+    },
+    {
+      "id": 25,
+      "quote": "Good artists copy, great artists steal.",
+      "theme": "creativity",
+      "category": "creativity"
+    },
+    {
+      "id": 26,
+      "quote": "Programming isn't about what you know. It's about what you can figure out.",
+      "theme": "problem-solving",
+      "category": "programming"
+    },
+    {
+      "id": 27,
+      "quote": "The function of good software is to make the complex appear simple.",
+      "theme": "simplicity",
+      "category": "programming"
+    },
+    {
+      "id": 28,
+      "quote": "Challenges are what make life interesting and overcoming them is what makes life meaningful.",
+      "theme": "meaning",
+      "category": "general"
+    },
+    {
+      "id": 29,
+      "quote": "Code softly and carry a big commit.",
+      "theme": "humor",
+      "category": "programming"
+    },
+    {
+      "id": 30,
+      "quote": "Your future is created by what you do today, not tomorrow.",
+      "theme": "action",
+      "category": "general"
+    }
+  ]
+}

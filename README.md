@@ -63,7 +63,33 @@ flowchart TD
 ![Vishnu's Stats](https://github-stats-extended.vercel.app/api?username=Vishnu4063&theme=midnight-purple&show_icons=true&hide_border=true&count_private=true)
 ![Vishnu's Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=Vishnu4063&theme=midnight-purple&show_icons=true&hide_border=true&layout=compact)
 
-## 🖥️ GitHub Profile 3D Contrib
+---
+
+## 💭 Daily Motivation
+
+
+
+
+
+
+
+<!-- DAILY_MOTIVATION_START -->
+## 💭 Daily Motivation
+
+> "The only way to learn a new programming language is to write programs in it."
+
+_Updated automatically every day. Last updated: 2026-10-05._
+<!-- DAILY_MOTIVATION_END -->
+
+
+
+
+
+
+
+_Update history will appear here as commits._
+
+---
 
 <div align="center">
 
