@@ -95,13 +95,17 @@ flowchart TD
 
 
 
+
+
 <!-- DAILY_MOTIVATION_START -->
 ## 💭 Daily Motivation
 
-> "I have not failed. I've just found 10,000 ways that won't work."
+> "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work."
 
-_Updated automatically every day. Last updated: 2026-10-14._
+_Updated automatically every day. Last updated: 2026-10-15._
 <!-- DAILY_MOTIVATION_END -->
+
+
 
 
 
